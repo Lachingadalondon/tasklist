@@ -1,4 +1,3 @@
-
 document.getElementById('routineForm').addEventListener('submit', function(event) {
     event.preventDefault();
     
