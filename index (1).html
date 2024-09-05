@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Routine for Bar and Waiting Staff</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Daily Routine for Bar and Waiting Staff</h1>
+
+    <form id="routineForm">
+
+        <!-- Staff Working This Shift -->
+        <section>
+            <h2>Staff Working This Shift</h2>
+            <label for="barStaffEarly">Bar Staff (Early Shift):</label>
+            <input type="text" id="barStaffEarly" name="barStaffEarly"><br><br>
+
+            <label for="barStaffEvening">Bar Staff (Evening Shift):</label>
+            <input type="text" id="barStaffEvening" name="barStaffEvening"><br><br>
+
+            <label for="waitingStaffEarly">Waiting Staff 1 (Early Shift):</label>
+            <input type="text" id="waitingStaffEarly" name="waitingStaffEarly"><br><br>
+
+            <label for="waitingStaffEvening">Waiting Staff 1 (Evening Shift):</label>
+            <input type="text" id="waitingStaffEvening" name="waitingStaffEvening"><br><br>
+        </section>
+
+        <!-- Pre-Shift Tasks -->
+        <section>
+            <h2>Pre-Shift Tasks</h2>
+            <label>
+                <input type="checkbox" name="task1"> Wash hands thoroughly before starting work
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="task2"> Wear clean uniform
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="task3"> Ensure nails are clean and trimmed
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="task4"> Set up the bar area (clean surfaces, stock drinks, check ice and garnishes)
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="task5"> Prepare fresh juices
+            </label><br>
+        </section>
+
+        <!-- End of Shift Tasks -->
+        <section>
+            <h2>End of Shift Tasks</h2>
+            <label>
+                <input type="checkbox" name="task6"> Clean the bar area (wipe down surfaces, restock drinks, clean glassware)
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="task7"> Run and clean the glass washer
+            </label><br>
+        </section>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
